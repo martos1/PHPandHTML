@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+address {
+	    display: inline;
+}
+span {
+	font-weight: bold;
+	font-size: 20px;
+}

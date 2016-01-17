@@ -26,7 +26,6 @@ function result($a, $b, $func){
 	<head>
 		<meta charset="UTF-8">
 		<title>Home1</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<?php if($_POST):?>

@@ -20,7 +20,6 @@ function convertTo($gradus, $conv) {
 	<head>
 		<meta charset="UTF-8">
 		<title>Home3</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<?php if($_POST):?>

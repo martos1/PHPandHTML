@@ -1,5 +1,6 @@
 <?php
-$_
+require_once 'functions.php';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,13 +50,6 @@ $_
 			<div>
 				<label for="10">Десето</label>
 				<input type="text" id="10" name="10" >
-			</div>
-			<div>
-				<label for="pass">Password</label>
-				<select name="convert">
-					<option value="1">C to F</option>
-					<option value="2">F to C</option>
-				</select>
 			</div>
 			<div>
 				<input type="submit" >
