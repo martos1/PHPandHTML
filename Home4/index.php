@@ -1,15 +1,23 @@
 <?php
-require_once 'functions.php';
-
+$arr = $_POST;
+asort($arr);
+$first = current($arr);
+$last = end($arr);
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Home3</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Home4</title>
 	</head>
 	<body>
+		<?php if($_POST):?>
+			<p>Сортираните числа: <?= implode(', ', $arr) ?></p>
+			<p>Най-малкото число: <?= $first ?></p>
+			<p>Най-голямото чиско: <?= $last ?></p>
+		<?php else:?>
+			<p>Въведете 10 числа.</p>
+		<?php endif;?>
 		<form method="post">
 			<div>
 				<label for="1">Първо</label>
